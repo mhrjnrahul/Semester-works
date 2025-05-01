@@ -1,0 +1,19 @@
+<!ELEMENT Library (Book+)>
+
+<!ELEMENT Book (Title, Author+, Genre, PublishedYear, Price, Copies, Availability)>
+<!ATTLIST Book isbn CDATA #REQUIRED>
+
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT Genre (#PCDATA)>
+<!ELEMENT PublishedYear (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ATTLIST Price currency CDATA #IMPLIED>
+
+<!ELEMENT Copies (Copy+)>
+
+<!ELEMENT Copy (Availability)>
+<!ATTLIST Copy copyID CDATA #REQUIRED>
+
+<!ELEMENT Availability EMPTY>
+<!ATTLIST Availability status (Available | "Checked Out") #REQUIRED>

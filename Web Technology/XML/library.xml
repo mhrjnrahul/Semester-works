@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Library SYSTEM "library.dtd">
+
+<Library>
+  <Book isbn="978-0131103627">
+    <Title>The C Programming Language</Title>
+    <Author>Dennis Ritchie</Author>
+    <Author>Brian Kernighan</Author>
+    <Genre>Programming</Genre>
+    <PublishedYear>1988</PublishedYear>
+    <Price currency="USD">59.99</Price>
+    <Copies>
+      <Copy copyID="C001">
+        <Availability status="Available"/>
+      </Copy>
+      <Copy copyID="C002">
+        <Availability status="Checked Out"/>
+      </Copy>
+    </Copies>
+    <Availability status="Available"/>
+  </Book>
+
+  <Book isbn="978-0262033848">
+    <Title>Introduction to Algorithms</Title>
+    <Author>Thomas H. Cormen</Author>
+    <Genre>Computer Science</Genre>
+    <PublishedYear>2009</PublishedYear>
+    <Price>89.99</Price> <!-- no currency (optional) -->
+    <Copies>
+      <Copy copyID="C101">
+        <Availability status="Available"/>
+      </Copy>
+    </Copies>
+    <Availability status="Checked Out"/>
+  </Book>
+</Library>
