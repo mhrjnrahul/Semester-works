@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="student.xsd">
+  <student>
+    <name>John Doe</name>
+    <rollNumber>101</rollNumber>
+    <age>22</age>
+    <email>john.doe@example.com</email>
+  </student>
+  <student>
+    <name>Jane Smith</name>
+    <rollNumber>102</rollNumber>
+    <age>25</age>
+    <email>jane.smith@college.edu</email>
+  </student>
+  <student>
+    <name>Robert Lee</name>
+    <rollNumber>103</rollNumber>
+    <age>19</age>
+    <email>robert.lee@university.com</email>
+  </student>
+</students>

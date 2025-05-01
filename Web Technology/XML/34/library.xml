@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="library.xsd">
+  <book>
+    <title>Introduction to Algorithms</title>
+    <author>Thomas H. Cormen</author>
+    <ISBN>9780262033848</ISBN>
+    <price>89.99</price>
+    <publisher>
+      <name>MIT Press</name>
+      <yearEstablished>1962</yearEstablished>
+    </publisher>
+  </book>
+  <book>
+    <title>Clean Code</title>
+    <author>Robert C. Martin</author>
+    <ISBN>9780132350884</ISBN>
+    <price>49.95</price>
+    <publisher>
+      <name>Prentice Hall</name>
+      <yearEstablished>1958</yearEstablished>
+    </publisher>
+  </book>
+  <book>
+    <title>The Pragmatic Programmer</title>
+    <author>Andrew Hunt</author>
+    <ISBN>9780201616224</ISBN>
+    <price>42.50</price>
+    <publisher>
+      <name>Addison-Wesley</name>
+      <yearEstablished>1942</yearEstablished>
+    </publisher>
+  </book>
+  <book>
+    <title>You Don't Know JS</title>
+    <author>Kyle Simpson</author>
+    <ISBN>9781491904244</ISBN>
+    <price>34.99</price>
+    <publisher>
+      <name>O'Reilly Media</name>
+      <yearEstablished>1978</yearEstablished>
+    </publisher>
+  </book>
+  <book>
+    <title>Design Patterns</title>
+    <author>Erich Gamma</author>
+    <ISBN>9780201633610</ISBN>
+    <price>55.00</price>
+    <publisher>
+      <name>Addison-Wesley</name>
+      <yearEstablished>1942</yearEstablished>
+    </publisher>
+  </book>
+</library>
