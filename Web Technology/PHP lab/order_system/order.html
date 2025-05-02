@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Order Product</title>
+  <script>
+    const prices = {
+      Laptop: 1000,
+      Mobile: 500,
+      Tablet: 300
+    };
+
+    function showPrice() {
+      const product = document.getElementById("product").value;
+      document.getElementById("price").innerText = prices[product] || "";
+    }
+
+    function validateQuantity() {
+      const qty = document.getElementById("quantity").value;
+      if (qty <= 0 || isNaN(qty)) {
+        alert("Please enter a valid quantity.");
+        document.getElementById("quantity").focus();
+      }
+    }
+
+    function validateName() {
+      const name = document.getElementById("customer").value.trim();
+      if (name === "") {
+        alert("Name cannot be empty.");
+        document.getElementById("customer").focus();
+      }
+    }
+  </script>
+</head>
+<body>
+  <h2>Product Order Form</h2>
+  <form method="POST" action="process.php">
+    <label>Customer Name: </label>
+    <input type="text" id="customer" name="customer" onblur="validateName()"><br><br>
+
+    <label>Product: </label>
+    <select id="product" name="product" onchange="showPrice()">
+      <option value="">--Select--</option>
+      <option value="Laptop">Laptop</option>
+      <option value="Mobile">Mobile</option>
+      <option value="Tablet">Tablet</option>
+    </select>
+    <span id="price"></span><br><br>
+
+    <label>Quantity: </label>
+    <input type="number" id="quantity" name="quantity" onblur="validateQuantity()"><br><br>
+
+    <button type="submit" onclick="return true;">Calculate Total</button>
+  </form>
+</body>
+</html>
