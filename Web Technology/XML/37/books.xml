@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+  <book>
+    <title>Learning XML</title>
+    <author>Erik T. Ray</author>
+    <price>39.95</price>
+    <publisher>O'Reilly</publisher>
+    <year>2003</year>
+  </book>
+  <book>
+    <title>JavaScript: The Good Parts</title>
+    <author>Douglas Crockford</author>
+    <price>29.99</price>
+    <publisher>O'Reilly</publisher>
+    <year>2008</year>
+  </book>
+  <book>
+    <title>Clean Code</title>
+    <author>Robert C. Martin</author>
+    <price>40.00</price>
+    <publisher>Prentice Hall</publisher>
+    <year>2008</year>
+  </book>
+  <book>
+    <title>Modern JavaScript</title>
+    <author>John Doe</author>
+    <price>25.00</price>
+    <publisher>Packt</publisher>
+    <year>2020</year>
+  </book>
+  <book>
+    <title>Python Tricks</title>
+    <author>Dan Bader</author>
+    <price>34.99</price>
+    <publisher>Real Python</publisher>
+    <year>2017</year>
+  </book>
+  <book>
+    <title>Design Patterns</title>
+    <author>Erich Gamma</author>
+    <price>45.00</price>
+    <publisher>Addison-Wesley</publisher>
+    <year>1994</year>
+  </book>
+</books>
